@@ -1,0 +1,18 @@
+<div class="header">
+
+    <nav>
+        <ul>
+            <img [src]="taglinelogo">
+            <li><a routerLink="navbar">{{headernav[0]}}</a></li>
+               <li><a routerLink="navbar">{{headernav[1]}}</a></li> 
+                <li><a routerLink="navbar">{{headernav[2]}}</a></li>
+                <li><a routerLink="navbar">{{headernav[3]}}</a></li>
+            
+                
+            <div class="btnget">
+                <button routerLink="/technologies" [type]="btnHeaderType" style="display: flex; justify-content: end;">{{getquote}}</button>
+            </div>
+        </ul>
+    </nav>
+</div>
+

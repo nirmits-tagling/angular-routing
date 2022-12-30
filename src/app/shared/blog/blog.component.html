@@ -1,0 +1,17 @@
+<div class="blogs">
+    <h1>Our Blog</h1>
+    <span class="headerline"></span>
+    <div class="bloggers">
+         <div class="blog" *ngFor="let blog of blogs"> -->
+            <img [src]="blog.img">
+            <div style="display: flex;justify-content: space-between;">
+                <button>{{blog.button}}</button>
+                <p>15/12/22</p>
+            </div>
+            <h3>{{blog.title}}</h3>
+            <p>{{blog.description}}</p>
+            <a href="#">{{blog.readmore}}</a>
+        </div>
+       
+</div>
+</div>

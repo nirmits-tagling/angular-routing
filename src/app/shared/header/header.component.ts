@@ -13,7 +13,7 @@ export class HeaderComponent implements OnInit {
   btnHeaderType:string ="button"
   getquote:string = "Get Quote"
   taglinelogo:string = "../assets/../assets/images/tagline.png"
-  headernav:string[]=["Case Study","About Us","Technology","Industry"]
+  headernav:string[]=["Case Study","About Us","Technology","Industry",'Our Blog']
   constructor() { }
 
   ngOnInit(): void {
